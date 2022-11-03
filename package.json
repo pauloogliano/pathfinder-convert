@@ -1,0 +1,19 @@
+{
+  "name": "pathfinder-convert",
+  "version": "1.0.0",
+  "description": "Convert Windows paths to MacOS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauloogliano/pathfinder-convert.git"
+  },
+  "keywords": [],
+  "author": "Paulo Ogliano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pauloogliano/pathfinder-convert/issues"
+  },
+  "homepage": "https://github.com/pauloogliano/pathfinder-convert#readme"
+}
