@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>Pathfinder Convert</h1>
+    <p>Converta caminhos Windows para MacOS.</p>
+    <div class="form">
+      <input type="text" id="address" placeholder="Cole o caminho Windows aqui">
+      <button id="submit">Converter</button>
+    </div>
+  </div>
+
+  <div class="result">
+    <div class="form">
+      <input type="text" id="resultValue">
+      <button id="copyToClipboard">Copiar</button>
+    </div>
+  </div>
+
+  <div class="messageCopied">Caminho copiado com sucesso.</div>
+
+  <script type="module">
+    import { App } from './assets/js/script.js';
+    document.getElementById('address').focus();
+    App.init();
+  </script>
+
+</body>
+</html>
